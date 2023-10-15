@@ -15,7 +15,8 @@ def game():
             answer_label=Label(gui,text=answer,font="times 20")
             answer_label.place(x=100,y=150)
         else:
-            print("Wrong Input")
+            answer_label=Label(gui,text="Wrong Input",font="times 20")
+            answer_label.place(x=100,y=150)
     word = "codercave"
     start = timer()
     gui= Tk()
